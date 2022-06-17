@@ -23,7 +23,7 @@
     </div>
 </div>
 <div in:fly='{{ delay: 1600, y: 200, duration: 2000 }}' 
-    class='flex flex-row bg-white shadow p-2 rounded'>
+     class='flex flex-row bg-white shadow p-2 rounded'>
     <img src='global-reach.png' alt='Global Reach'
          in:fly='{{ delay: 1600, y: 200, duration: 2000 }}'
          class='rounded w-20 h-20'/>
