@@ -15,7 +15,7 @@
 
 <div class='grid place-content-center w-screen h-screen font-poppins bg-gray-50'>
     <Intro bind:select='{select}' />
-    <Work    visible={select} />
+    <Work     visible={select} />
     <Projects visible={select} />
-    <Contact visible={select} />
+    <Contact  visible={select} />
 </div>
