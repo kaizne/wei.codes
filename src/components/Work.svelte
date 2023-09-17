@@ -8,6 +8,23 @@
 <h2  in:fly='{{ delay: 1000, x: 200, duration: 2000 }}' 
      class='text-2xl font-semibold mt-2 mb-1'>Work History</h2>
 <div class='flex flex-col gap-y-3'>
+     <div in:fly='{{ delay: 400, y: 200, duration: 2000 }}' 
+          class='flex flex-row bg-white shadow p-2 rounded'>
+     <img src='railvision.jpeg' alt='Railvision Analytics'
+          in:fly='{{ delay: 400, y: 200, duration: 2000 }}'
+          class='rounded w-20 h-20'/>
+     <div class='w-80 flex flex-col justify-center ml-3'>
+          <div in:blur='{{ delay: 400, duration: 2000 }}'
+               class='text-lg font-semibold 
+               text-blue-400 underline hover:cursor-pointer'>
+               <a href='https://www.railvision.ca/en/' target='_blank'>Railvision Analytics</a>
+          </div>
+          <div in:blur='{{ delay: 500, duration: 2000 }}' 
+               class='text-md font-medium'>Software Engineer Intern</div>
+          <div in:blur='{{ delay: 600, duration: 2000 }}'
+               class='text-md font-normal'>Sept.2023 - Present</div>
+     </div>
+     </div>
      <div in:fly='{{ delay: 800, y: 200, duration: 2000 }}' 
           class='flex flex-row bg-white shadow p-2 rounded'>
      <img src='microart.jpeg' alt='Microart Services Inc.'
